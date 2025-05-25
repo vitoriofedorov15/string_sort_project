@@ -1,0 +1,451 @@
+n,algorithm,time_ms,char_comparisons,input_type
+100,std::sort,0.090,3059,random
+100,StringMergeSort,0.225,1148,random
+100,StringQuickSort,0.141,570,random
+100,MSD Radix,0.703,173,random
+100,MSD Radix + QS,0.055,160,random
+200,std::sort,0.633,7888,random
+200,StringMergeSort,0.665,2784,random
+200,StringQuickSort,0.082,1436,random
+200,MSD Radix,1.167,399,random
+200,MSD Radix + QS,0.094,418,random
+300,std::sort,0.602,10675,random
+300,StringMergeSort,0.605,4593,random
+300,StringQuickSort,0.104,2227,random
+300,MSD Radix,1.489,606,random
+300,MSD Radix + QS,0.136,721,random
+400,std::sort,0.475,15058,random
+400,StringMergeSort,0.894,6614,random
+400,StringQuickSort,0.156,3332,random
+400,MSD Radix,1.733,816,random
+400,MSD Radix + QS,0.175,1074,random
+500,std::sort,0.704,20284,random
+500,StringMergeSort,0.975,8685,random
+500,StringQuickSort,0.247,4052,random
+500,MSD Radix,1.784,1029,random
+500,MSD Radix + QS,0.218,1462,random
+600,std::sort,0.853,25868,random
+600,StringMergeSort,1.122,10915,random
+600,StringQuickSort,0.241,5022,random
+600,MSD Radix,1.907,1255,random
+600,MSD Radix + QS,0.285,1896,random
+700,std::sort,0.861,30017,random
+700,StringMergeSort,1.399,13181,random
+700,StringQuickSort,0.308,6644,random
+700,MSD Radix,2.087,1475,random
+700,MSD Radix + QS,0.293,2387,random
+800,std::sort,0.960,34547,random
+800,StringMergeSort,1.450,15481,random
+800,StringQuickSort,0.305,7035,random
+800,MSD Radix,2.119,1695,random
+800,MSD Radix + QS,0.323,2852,random
+900,std::sort,1.149,41961,random
+900,StringMergeSort,1.668,17897,random
+900,StringQuickSort,0.345,8167,random
+900,MSD Radix,2.324,1919,random
+900,MSD Radix + QS,0.363,3354,random
+1000,std::sort,1.203,41965,random
+1000,StringMergeSort,1.852,20306,random
+1000,StringQuickSort,0.383,9095,random
+1000,MSD Radix,2.631,2149,random
+1000,MSD Radix + QS,0.453,3868,random
+1100,std::sort,1.373,48979,random
+1100,StringMergeSort,2.058,22695,random
+1100,StringQuickSort,0.456,10117,random
+1100,MSD Radix,2.937,2373,random
+1100,MSD Radix + QS,0.452,4452,random
+1200,std::sort,1.528,52617,random
+1200,StringMergeSort,2.307,25275,random
+1200,StringQuickSort,0.498,11493,random
+1200,MSD Radix,3.141,2610,random
+1200,MSD Radix + QS,0.498,5123,random
+1300,std::sort,1.674,57762,random
+1300,StringMergeSort,2.545,27809,random
+1300,StringQuickSort,0.541,12442,random
+1300,MSD Radix,3.902,2855,random
+1300,MSD Radix + QS,0.585,5640,random
+1400,std::sort,3.563,60970,random
+1400,StringMergeSort,3.012,30453,random
+1400,StringQuickSort,0.787,13869,random
+1400,MSD Radix,4.572,3098,random
+1400,MSD Radix + QS,0.765,6255,random
+1500,std::sort,2.078,66202,random
+1500,StringMergeSort,3.072,33148,random
+1500,StringQuickSort,0.668,15268,random
+1500,MSD Radix,6.212,3354,random
+1500,MSD Radix + QS,1.026,6895,random
+1600,std::sort,3.030,72878,random
+1600,StringMergeSort,4.793,35687,random
+1600,StringQuickSort,0.860,16024,random
+1600,MSD Radix,8.119,3599,random
+1600,MSD Radix + QS,0.703,7501,random
+1700,std::sort,2.570,77568,random
+1700,StringMergeSort,3.548,38378,random
+1700,StringQuickSort,0.802,18220,random
+1700,MSD Radix,5.327,3845,random
+1700,MSD Radix + QS,0.751,8060,random
+1800,std::sort,2.954,83630,random
+1800,StringMergeSort,4.468,41076,random
+1800,StringQuickSort,0.809,18138,random
+1800,MSD Radix,5.833,4083,random
+1800,MSD Radix + QS,0.861,8686,random
+1900,std::sort,2.671,81522,random
+1900,StringMergeSort,4.222,43818,random
+1900,StringQuickSort,0.869,19592,random
+1900,MSD Radix,6.096,4355,random
+1900,MSD Radix + QS,0.831,9394,random
+2000,std::sort,2.881,93144,random
+2000,StringMergeSort,4.200,46614,random
+2000,StringQuickSort,0.899,20100,random
+2000,MSD Radix,6.717,4611,random
+2000,MSD Radix + QS,0.900,9980,random
+2100,std::sort,3.127,97793,random
+2100,StringMergeSort,5.034,49324,random
+2100,StringQuickSort,1.102,21566,random
+2100,MSD Radix,7.473,4855,random
+2100,MSD Radix + QS,0.938,10788,random
+2200,std::sort,3.068,99128,random
+2200,StringMergeSort,4.997,52006,random
+2200,StringQuickSort,1.056,23859,random
+2200,MSD Radix,7.329,5111,random
+2200,MSD Radix + QS,1.005,11381,random
+2300,std::sort,3.198,103080,random
+2300,StringMergeSort,5.243,54948,random
+2300,StringQuickSort,1.125,24147,random
+2300,MSD Radix,8.309,5364,random
+2300,MSD Radix + QS,1.110,12090,random
+2400,std::sort,3.474,108364,random
+2400,StringMergeSort,5.299,57923,random
+2400,StringQuickSort,1.128,25711,random
+2400,MSD Radix,8.061,5620,random
+2400,MSD Radix + QS,1.075,12849,random
+2500,std::sort,3.475,113786,random
+2500,StringMergeSort,6.176,60713,random
+2500,StringQuickSort,1.923,27128,random
+2500,MSD Radix,10.889,5871,random
+2500,MSD Radix + QS,1.298,13649,random
+2600,std::sort,4.431,121948,random
+2600,StringMergeSort,5.623,63568,random
+2600,StringQuickSort,2.590,28352,random
+2600,MSD Radix,8.956,6144,random
+2600,MSD Radix + QS,1.235,14222,random
+2700,std::sort,3.959,125587,random
+2700,StringMergeSort,5.896,66472,random
+2700,StringQuickSort,1.281,28961,random
+2700,MSD Radix,9.397,6400,random
+2700,MSD Radix + QS,1.258,14844,random
+2800,std::sort,3.934,127917,random
+2800,StringMergeSort,6.059,69470,random
+2800,StringQuickSort,1.393,31487,random
+2800,MSD Radix,9.762,6663,random
+2800,MSD Radix + QS,1.337,15654,random
+2900,std::sort,4.172,140054,random
+2900,StringMergeSort,6.419,72402,random
+2900,StringQuickSort,1.400,32498,random
+2900,MSD Radix,10.386,6935,random
+2900,MSD Radix + QS,1.294,16382,random
+3000,std::sort,4.409,142700,random
+3000,StringMergeSort,6.605,75384,random
+3000,StringQuickSort,1.427,33476,random
+3000,MSD Radix,11.026,7211,random
+3000,MSD Radix + QS,1.394,17032,random
+100,std::sort,0.059,1051,reverse
+100,StringMergeSort,0.210,1033,reverse
+100,StringQuickSort,0.042,1078,reverse
+100,MSD Radix,0.389,242,reverse
+100,MSD Radix + QS,0.103,1692,reverse
+200,std::sort,0.064,1865,reverse
+200,StringMergeSort,0.277,2299,reverse
+200,StringQuickSort,0.131,3038,reverse
+200,MSD Radix,1.009,490,reverse
+200,MSD Radix + QS,0.217,3415,reverse
+300,std::sort,0.076,2258,reverse
+300,StringMergeSort,0.474,3602,reverse
+300,StringQuickSort,0.167,4199,reverse
+300,MSD Radix,1.160,728,reverse
+300,MSD Radix + QS,0.253,4989,reverse
+400,std::sort,0.097,2392,reverse
+400,StringMergeSort,0.586,5022,reverse
+400,StringQuickSort,0.230,6037,reverse
+400,MSD Radix,1.519,976,reverse
+400,MSD Radix + QS,0.318,6635,reverse
+500,std::sort,0.113,2990,reverse
+500,StringMergeSort,0.728,6157,reverse
+500,StringQuickSort,0.315,8650,reverse
+500,MSD Radix,1.862,1219,reverse
+500,MSD Radix + QS,0.403,8321,reverse
+600,std::sort,0.127,3177,reverse
+600,StringMergeSort,0.894,7830,reverse
+600,StringQuickSort,0.414,11250,reverse
+600,MSD Radix,2.231,1463,reverse
+600,MSD Radix + QS,0.466,9725,reverse
+700,std::sort,0.146,3815,reverse
+700,StringMergeSort,1.058,9400,reverse
+700,StringQuickSort,0.494,13679,reverse
+700,MSD Radix,2.653,1713,reverse
+700,MSD Radix + QS,0.561,11639,reverse
+800,std::sort,0.159,3844,reverse
+800,StringMergeSort,1.230,10819,reverse
+800,StringQuickSort,0.594,16336,reverse
+800,MSD Radix,2.987,1948,reverse
+800,MSD Radix + QS,0.636,13532,reverse
+900,std::sort,0.176,4134,reverse
+900,StringMergeSort,1.384,12114,reverse
+900,StringQuickSort,0.725,19868,reverse
+900,MSD Radix,3.303,2185,reverse
+900,MSD Radix + QS,0.715,15375,reverse
+1000,std::sort,0.274,6919,reverse
+1000,StringMergeSort,1.631,13338,reverse
+1000,StringQuickSort,0.864,23516,reverse
+1000,MSD Radix,3.864,2423,reverse
+1000,MSD Radix + QS,0.847,17348,reverse
+1100,std::sort,0.316,7400,reverse
+1100,StringMergeSort,1.788,15031,reverse
+1100,StringQuickSort,0.997,26870,reverse
+1100,MSD Radix,4.087,2661,reverse
+1100,MSD Radix + QS,0.912,19223,reverse
+1200,std::sort,0.321,7975,reverse
+1200,StringMergeSort,2.006,16944,reverse
+1200,StringQuickSort,1.220,31691,reverse
+1200,MSD Radix,4.565,2927,reverse
+1200,MSD Radix + QS,0.956,20567,reverse
+1300,std::sort,0.337,8385,reverse
+1300,StringMergeSort,2.098,18542,reverse
+1300,StringQuickSort,1.276,35252,reverse
+1300,MSD Radix,4.880,3169,reverse
+1300,MSD Radix + QS,1.050,22193,reverse
+1400,std::sort,0.361,8952,reverse
+1400,StringMergeSort,2.275,20171,reverse
+1400,StringQuickSort,1.440,39905,reverse
+1400,MSD Radix,5.491,3427,reverse
+1400,MSD Radix + QS,1.177,23786,reverse
+1500,std::sort,0.402,9489,reverse
+1500,StringMergeSort,2.554,21688,reverse
+1500,StringQuickSort,1.619,43802,reverse
+1500,MSD Radix,5.795,3655,reverse
+1500,MSD Radix + QS,1.223,25372,reverse
+1600,std::sort,0.420,9917,reverse
+1600,StringMergeSort,2.729,23262,reverse
+1600,StringQuickSort,1.795,49512,reverse
+1600,MSD Radix,6.088,3916,reverse
+1600,MSD Radix + QS,1.257,26894,reverse
+1700,std::sort,0.432,10515,reverse
+1700,StringMergeSort,2.812,24661,reverse
+1700,StringQuickSort,1.933,53483,reverse
+1700,MSD Radix,6.434,4157,reverse
+1700,MSD Radix + QS,1.328,28524,reverse
+1800,std::sort,0.446,10591,reverse
+1800,StringMergeSort,3.114,26016,reverse
+1800,StringQuickSort,2.169,58211,reverse
+1800,MSD Radix,7.025,4400,reverse
+1800,MSD Radix + QS,1.458,29988,reverse
+1900,std::sort,0.482,11647,reverse
+1900,StringMergeSort,3.344,27373,reverse
+1900,StringQuickSort,2.396,64450,reverse
+1900,MSD Radix,7.076,4629,reverse
+1900,MSD Radix + QS,1.525,31777,reverse
+2000,std::sort,0.493,12066,reverse
+2000,StringMergeSort,3.315,28557,reverse
+2000,StringQuickSort,2.510,69633,reverse
+2000,MSD Radix,7.422,4873,reverse
+2000,MSD Radix + QS,1.624,33353,reverse
+2100,std::sort,0.547,12745,reverse
+2100,StringMergeSort,3.620,30234,reverse
+2100,StringQuickSort,2.799,76111,reverse
+2100,MSD Radix,8.009,5110,reverse
+2100,MSD Radix + QS,1.735,35203,reverse
+2200,std::sort,0.561,12958,reverse
+2200,StringMergeSort,3.865,32249,reverse
+2200,StringQuickSort,3.042,82876,reverse
+2200,MSD Radix,8.121,5340,reverse
+2200,MSD Radix + QS,1.714,36685,reverse
+2300,std::sort,0.573,13460,reverse
+2300,StringMergeSort,3.910,34282,reverse
+2300,StringQuickSort,3.323,89539,reverse
+2300,MSD Radix,8.816,5587,reverse
+2300,MSD Radix + QS,1.883,38064,reverse
+2400,std::sort,0.610,13693,reverse
+2400,StringMergeSort,4.261,36290,reverse
+2400,StringQuickSort,3.532,96227,reverse
+2400,MSD Radix,8.695,5813,reverse
+2400,MSD Radix + QS,1.869,40024,reverse
+2500,std::sort,0.605,14692,reverse
+2500,StringMergeSort,4.328,37868,reverse
+2500,StringQuickSort,3.723,103242,reverse
+2500,MSD Radix,9.430,6049,reverse
+2500,MSD Radix + QS,2.022,41548,reverse
+2600,std::sort,0.656,15520,reverse
+2600,StringMergeSort,4.658,39670,reverse
+2600,StringQuickSort,4.132,111636,reverse
+2600,MSD Radix,9.343,6283,reverse
+2600,MSD Radix + QS,2.021,43186,reverse
+2700,std::sort,0.655,15404,reverse
+2700,StringMergeSort,4.687,41650,reverse
+2700,StringQuickSort,4.264,117943,reverse
+2700,MSD Radix,9.706,6521,reverse
+2700,MSD Radix + QS,2.166,44963,reverse
+2800,std::sort,0.713,16231,reverse
+2800,StringMergeSort,5.101,43081,reverse
+2800,StringQuickSort,4.697,127558,reverse
+2800,MSD Radix,10.300,6771,reverse
+2800,MSD Radix + QS,2.185,46536,reverse
+2900,std::sort,0.717,16719,reverse
+2900,StringMergeSort,5.094,44823,reverse
+2900,StringQuickSort,4.859,135631,reverse
+2900,MSD Radix,10.788,7027,reverse
+2900,MSD Radix + QS,2.360,48228,reverse
+3000,std::sort,0.766,17283,reverse
+3000,StringMergeSort,5.441,46184,reverse
+3000,StringQuickSort,5.305,145088,reverse
+3000,MSD Radix,10.843,7267,reverse
+3000,MSD Radix + QS,2.366,50101,reverse
+100,std::sort,0.030,954,almost_sorted
+100,StringMergeSort,0.114,912,almost_sorted
+100,StringQuickSort,0.031,740,almost_sorted
+100,MSD Radix,0.355,237,almost_sorted
+100,MSD Radix + QS,0.058,710,almost_sorted
+200,std::sort,0.199,8778,almost_sorted
+200,StringMergeSort,0.254,2271,almost_sorted
+200,StringQuickSort,0.068,1712,almost_sorted
+200,MSD Radix,0.682,475,almost_sorted
+200,MSD Radix + QS,0.104,1443,almost_sorted
+300,std::sort,0.309,12534,almost_sorted
+300,StringMergeSort,0.414,3953,almost_sorted
+300,StringQuickSort,0.116,2942,almost_sorted
+300,MSD Radix,1.014,709,almost_sorted
+300,MSD Radix + QS,0.153,2178,almost_sorted
+400,std::sort,0.481,20129,almost_sorted
+400,StringMergeSort,0.576,5389,almost_sorted
+400,StringQuickSort,0.173,4427,almost_sorted
+400,MSD Radix,1.410,956,almost_sorted
+400,MSD Radix + QS,0.228,2999,almost_sorted
+500,std::sort,0.556,21159,almost_sorted
+500,StringMergeSort,0.767,7512,almost_sorted
+500,StringQuickSort,0.239,6160,almost_sorted
+500,MSD Radix,1.873,1200,almost_sorted
+500,MSD Radix + QS,0.253,3720,almost_sorted
+600,std::sort,0.694,25508,almost_sorted
+600,StringMergeSort,0.930,9057,almost_sorted
+600,StringQuickSort,0.319,8168,almost_sorted
+600,MSD Radix,2.209,1437,almost_sorted
+600,MSD Radix + QS,0.317,4527,almost_sorted
+700,std::sort,0.876,34083,almost_sorted
+700,StringMergeSort,1.130,10991,almost_sorted
+700,StringQuickSort,0.420,10680,almost_sorted
+700,MSD Radix,2.605,1686,almost_sorted
+700,MSD Radix + QS,0.372,5355,almost_sorted
+800,std::sort,1.021,38672,almost_sorted
+800,StringMergeSort,1.305,12717,almost_sorted
+800,StringQuickSort,0.506,13203,almost_sorted
+800,MSD Radix,3.031,1929,almost_sorted
+800,MSD Radix + QS,0.416,6069,almost_sorted
+900,std::sort,1.166,46202,almost_sorted
+900,StringMergeSort,1.457,14979,almost_sorted
+900,StringQuickSort,0.591,15651,almost_sorted
+900,MSD Radix,3.206,2162,almost_sorted
+900,MSD Radix + QS,0.445,6802,almost_sorted
+1000,std::sort,1.288,49596,almost_sorted
+1000,StringMergeSort,1.608,17125,almost_sorted
+1000,StringQuickSort,0.689,18701,almost_sorted
+1000,MSD Radix,3.565,2414,almost_sorted
+1000,MSD Radix + QS,0.488,7576,almost_sorted
+1100,std::sort,1.404,54645,almost_sorted
+1100,StringMergeSort,1.765,18583,almost_sorted
+1100,StringQuickSort,0.825,22031,almost_sorted
+1100,MSD Radix,3.985,2655,almost_sorted
+1100,MSD Radix + QS,0.554,8335,almost_sorted
+1200,std::sort,1.602,61112,almost_sorted
+1200,StringMergeSort,1.970,19798,almost_sorted
+1200,StringQuickSort,0.964,25687,almost_sorted
+1200,MSD Radix,4.312,2887,almost_sorted
+1200,MSD Radix + QS,0.601,9063,almost_sorted
+1300,std::sort,1.535,55848,almost_sorted
+1300,StringMergeSort,2.188,22143,almost_sorted
+1300,StringQuickSort,1.103,29768,almost_sorted
+1300,MSD Radix,4.536,3123,almost_sorted
+1300,MSD Radix + QS,0.625,9803,almost_sorted
+1400,std::sort,1.591,58462,almost_sorted
+1400,StringMergeSort,2.298,23763,almost_sorted
+1400,StringQuickSort,1.234,34104,almost_sorted
+1400,MSD Radix,4.850,3367,almost_sorted
+1400,MSD Radix + QS,0.671,10562,almost_sorted
+1500,std::sort,1.819,68939,almost_sorted
+1500,StringMergeSort,2.481,26144,almost_sorted
+1500,StringQuickSort,1.422,38910,almost_sorted
+1500,MSD Radix,5.315,3613,almost_sorted
+1500,MSD Radix + QS,0.737,11308,almost_sorted
+1600,std::sort,1.897,70206,almost_sorted
+1600,StringMergeSort,2.740,27911,almost_sorted
+1600,StringQuickSort,1.610,43530,almost_sorted
+1600,MSD Radix,5.763,3859,almost_sorted
+1600,MSD Radix + QS,0.813,12117,almost_sorted
+1700,std::sort,1.932,72236,almost_sorted
+1700,StringMergeSort,2.874,30420,almost_sorted
+1700,StringQuickSort,1.778,48475,almost_sorted
+1700,MSD Radix,5.940,4098,almost_sorted
+1700,MSD Radix + QS,0.818,12823,almost_sorted
+1800,std::sort,2.147,79972,almost_sorted
+1800,StringMergeSort,3.037,31552,almost_sorted
+1800,StringQuickSort,1.941,53966,almost_sorted
+1800,MSD Radix,6.365,4342,almost_sorted
+1800,MSD Radix + QS,0.895,13527,almost_sorted
+1900,std::sort,2.295,85996,almost_sorted
+1900,StringMergeSort,3.332,34101,almost_sorted
+1900,StringQuickSort,2.190,59442,almost_sorted
+1900,MSD Radix,6.709,4594,almost_sorted
+1900,MSD Radix + QS,0.907,14196,almost_sorted
+2000,std::sort,2.390,92097,almost_sorted
+2000,StringMergeSort,3.397,36053,almost_sorted
+2000,StringQuickSort,2.128,59461,almost_sorted
+2000,MSD Radix,6.971,4840,almost_sorted
+2000,MSD Radix + QS,0.954,15000,almost_sorted
+2100,std::sort,2.605,99847,almost_sorted
+2100,StringMergeSort,3.577,38258,almost_sorted
+2100,StringQuickSort,2.303,63368,almost_sorted
+2100,MSD Radix,7.549,5091,almost_sorted
+2100,MSD Radix + QS,1.052,15767,almost_sorted
+2200,std::sort,2.723,101259,almost_sorted
+2200,StringMergeSort,3.896,40142,almost_sorted
+2200,StringQuickSort,2.462,67502,almost_sorted
+2200,MSD Radix,7.791,5334,almost_sorted
+2200,MSD Radix + QS,1.052,16525,almost_sorted
+2300,std::sort,2.874,106909,almost_sorted
+2300,StringMergeSort,3.980,42310,almost_sorted
+2300,StringQuickSort,2.576,71944,almost_sorted
+2300,MSD Radix,8.225,5581,almost_sorted
+2300,MSD Radix + QS,1.131,17309,almost_sorted
+2400,std::sort,3.156,116940,almost_sorted
+2400,StringMergeSort,4.275,44086,almost_sorted
+2400,StringQuickSort,3.181,87394,almost_sorted
+2400,MSD Radix,8.567,5824,almost_sorted
+2400,MSD Radix + QS,1.146,17944,almost_sorted
+2500,std::sort,3.296,128810,almost_sorted
+2500,StringMergeSort,4.350,46883,almost_sorted
+2500,StringQuickSort,3.333,93685,almost_sorted
+2500,MSD Radix,9.049,6084,almost_sorted
+2500,MSD Radix + QS,1.228,18657,almost_sorted
+2600,std::sort,3.616,138733,almost_sorted
+2600,StringMergeSort,4.694,49002,almost_sorted
+2600,StringQuickSort,3.579,97974,almost_sorted
+2600,MSD Radix,9.476,6335,almost_sorted
+2600,MSD Radix + QS,1.237,19461,almost_sorted
+2700,std::sort,3.687,147161,almost_sorted
+2700,StringMergeSort,4.725,50568,almost_sorted
+2700,StringQuickSort,3.675,103501,almost_sorted
+2700,MSD Radix,9.813,6570,almost_sorted
+2700,MSD Radix + QS,1.356,20192,almost_sorted
+2800,std::sort,4.103,167674,almost_sorted
+2800,StringMergeSort,5.056,51616,almost_sorted
+2800,StringQuickSort,3.916,108623,almost_sorted
+2800,MSD Radix,10.032,6815,almost_sorted
+2800,MSD Radix + QS,1.337,20926,almost_sorted
+2900,std::sort,4.485,194962,almost_sorted
+2900,StringMergeSort,5.097,54619,almost_sorted
+2900,StringQuickSort,4.193,118179,almost_sorted
+2900,MSD Radix,10.658,7058,almost_sorted
+2900,MSD Radix + QS,1.412,21644,almost_sorted
+3000,std::sort,1.335,38165,almost_sorted
+3000,StringMergeSort,5.429,56374,almost_sorted
+3000,StringQuickSort,4.434,124020,almost_sorted
+3000,MSD Radix,10.633,7296,almost_sorted
+3000,MSD Radix + QS,1.409,22354,almost_sorted
